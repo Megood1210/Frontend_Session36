@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    }
+
+    .container {
+        margin-top: 50px;
+        background: white;
+        padding: 20px;
+        display: inline-block;
+    }
+
+    .color-buttons {
+        margin: 20px 0;
+    }
+
+    .color-btn {
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    p{
+        color: gray;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>Chọn màu nền bạn yêu thích</h2>
+        <div class="color-buttons">
+            <button class="color-btn" style="background-color: red;" onclick="changeBackgroundColor('red')">Đỏ</button>
+            <button class="color-btn" style="background-color: blue;" onclick="changeBackgroundColor('blue')">Xanh</button>
+            <button class="color-btn" style="background-color: yellow;" onclick="changeBackgroundColor('gold')">Vàng</button>
+            <button class="color-btn" style="background-color: purple;" onclick="changeBackgroundColor('purple')">Tím</button>
+        </div>
+        <p >Trang sẽ ghi nhớ màu bạn đã chọn kể cả khi tải lại!</p>
+    </div>
+    <script src="./ss36ex3.js"></script>
+</body>
+</html>
