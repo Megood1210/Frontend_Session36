@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .food-item {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .food-item img {
+        width: 150px;
+        height: 100px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    .food-info {
+        flex-grow: 1;
+        text-align: left;
+
+    }
+
+    .like-btn {
+        background: green;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+
+    .likes {
+        margin-top: -15px;
+        margin-bottom: -0,5px;
+        color: red;
+        font-size: 14px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h2>Bạn thích món nào nhất?</h2>
+        <div id="food-list">
+
+        </div>
+    </div>
+    <script src="./ss36ex2.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
